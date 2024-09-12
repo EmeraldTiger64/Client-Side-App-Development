@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+		<!--
+			Web Design Portfolio Project
+			Name: Emerald DeJong
+			Date: 5/3/2023
+			
+			Contact page for portfolio project.
+			Filename: contact.html
+		-->
+		<meta charset="UTF-8">
+		<title>Contact - Emerald DeJong</title>
+   <link href="normalize.css" rel="stylesheet" />
+   <link href="main.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1>Emerald DeJong - Contact</h1>
+		</header>
+
+		<section>
+			<nav>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</section>
+		
+		<section>
+			<p>If you would like to contact me, I have provided my main means below:</p>
+			<p>E-Mail: <a href="mailto:trentondejong640@gmail.com">trentondejong640@gmail.com</a></p>
+			<p>Mobile Phone: <a href="tel:+16415045288">(641) 504-5288</a></p>
+			<p>LinkedIN: <a href="https://www.linkedin.com/in/emerald-dejong-2457b3253/">LinkedIN - Emerald DeJong</a></p>
+		</section>
+		<section>
+			<p>Required values are marked by an asterisk (*)</p>
+			<fieldset id="busiInfo">
+				<legend>Business Information</legend>
+				<div class="formRow">
+					<label for="company">Company*</label>
+					<input name="company" id="company" type="text" required />
+				</div>
+				<div class="formRow">
+					<label for="firstName">First Name*</label>
+					<input name="firstName" id="firstName" type="text" required />
+				</div>
+				<div class="formRow">
+					<label for="lastName">Last Name*</label>
+					<input name="lastName" id="lastName" type="text" required />
+				</div>
+				<div class="formRow">
+					<label for="city">City</label>
+					<input name="city" id="city" type="text" value="Wausau" />
+				</div>
+				<div class="formRow">
+					<label for="state">State</label>
+					<input name="state" id="state" type="text" value="WI" />
+				</div>
+				<div class="formRow">
+					<label for="zip">Postal code</label>
+					<input name="zip" id="zip" type="text" placeholder="nnnnn (-nnnn)" pattern="^\d{5}(-\d{4})?$" />
+				</div>
+				<div class="formRow">
+					<label for="phone">Phone number</label>
+					<input name="phone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/>
+				</div>
+				<div class="formRow">
+					<label for="mail">E-mail*</label>
+					<input name="email" id="mail" type="email" required />
+				</div>
+				<label for="commBox">Let us know if you have any comments.</label>
+				<textarea name="custExp" id="commBox"></textarea>
+			</fieldset>
+			<div id="buttons">
+				<input type="submit" value="Submit" />
+			</div>
+		</section>
+		<footer>
+			<p>Emerald Lee Tiger - <span><address>623 S 6th Ave, Wausau, WI, 54401</address></span> &copy; 2023</p>
+			<a href="#top">To Top</a>
+		</footer>
+	</div>
+</body>
+</html>
