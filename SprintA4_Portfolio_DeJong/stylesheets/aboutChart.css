@@ -1,0 +1,37 @@
+div.chart {
+    background-color: bisque;
+    padding: 20px;
+    width: 90%;
+}
+
+div.dataPoint {
+    height: 40px;
+    background-color: cadetblue;
+    padding: 5px;
+    vertical-align: center;
+    font-weight: 2em;
+}
+
+div.spacer {
+    height: 10px;
+}
+
+div#dataPoint01 {
+    width: 80%;
+}
+
+div#dataPoint02 {
+    width: 40%;
+}
+
+div#dataPoint03 {
+    width: 55%;
+}
+
+div#dataPoint04 {
+    width: 65%;
+}
+
+div#dataPoint05 {
+    width: 20%;
+}
